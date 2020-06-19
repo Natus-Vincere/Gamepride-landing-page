@@ -1,0 +1,353 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.5 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */body{font-family:sans-serif,Lato,'Helvetica Neue',Helvetica,Arial}
+ h1,h2,h3,h4,h5,h6,p{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:650;}
+
+.btn-hover:hover
+{
+	opacity: 0.4;
+	color:white;
+}
+.conten_xd 
+{
+	
+	height: 86vh;
+	position: relative;
+
+}
+.conten_xd1
+{
+	border-width: 0 4px 0 0 ;
+	border-style: solid;
+	border-color: black;
+}
+.testimonials_video
+{
+
+	position:  absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 350px;
+
+}
+section.testimonials
+{
+	background: white !important;
+}
+.entrevistas
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	font-style: oblique;
+	width: 80vw;
+	margin-left: 9%;
+}
+.video-responsive
+{
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+.video-responsive div
+{
+	margin-left: 15px;
+}
+
+section.showcase
+{
+	border-top: 5px solid black !important;
+	border-bottom: 5px solid black !important;
+}
+
+.main-description
+{
+	background: white;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section h2
+{
+	padding-top: 0px;
+	font-size: 30px;
+	color: red;
+	font-style: oblique;
+}
+.main-description p
+{
+	color:black;
+	width: 50%;
+	text-align: center;
+	padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.temp
+{
+	color: black !important;
+}
+
+section.features-icons
+{
+	margin-top: -190px;
+	background: white !important;
+	
+
+}
+
+.navbar-man
+{
+	height: 80px;
+	background: black;
+	opacity: 0.9;
+}
+.navbar-brand
+{
+	position: relative;
+	left: -5%;
+	top: -5%;
+	color: white;
+	font-size:25px;
+	font-family:sans-serif;
+	font-weight:650;
+	font-style: oblique;
+}
+
+.navbar-brand:before
+{
+	content: "";
+	width: 3px;
+	height: 40%;
+	background: white;
+	position: absolute;
+	left: -6.5px;
+	top: 14px;
+}
+.navbar-brand:hover:before 
+{
+	background: blue;
+}
+nav .sec a,li
+{
+	color:white !important;
+	margin:6px;
+	padding-top: 5px;
+	font-family:sans-serif;
+	font-weight:550;
+	font-style: oblique;	
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.sec .row a
+{
+	position: relative;
+	top: -1px;	
+	right: -45px;
+}
+.sec .row a:before
+{
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	right: 50%;
+	background: white;
+	height: 3px;
+	transition-property: left right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.row a:hover:before
+{
+	background: blue;
+	opacity: 0.8;
+	right: 0px;
+	left: 0px;
+}
+ header.masthead
+ {
+ 	position:relative;
+ 	background-color:#343a40;
+ 	height: 578px;
+ 	background:url("https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
+ 	background-size:cover;
+ 	padding-top:8rem;
+ 	padding-bottom:8rem;
+ }
+ header h1
+ {
+ 	position: relative;
+ 	left: -35px;
+ }
+ header.masthead .overlay
+ {
+ 		position:absolute;
+ 		background-color:#212529;
+ 		height:100%;
+ 		width:100%;
+ 		top:0;
+ 		left:0;
+ 		opacity:.3
+ }
+
+ header.masthead h1
+ {
+ 	font-size:1.6rem;
+ 	font-style: italic;
+
+ }
+
+ .Precios{
+    font-family: 'Open Sans',sans-serif;
+    padding: 0px 0 100px;
+    background-color: #2e333a;
+    padding-left: 225px;
+}
+
+.Precios h1{
+	padding-top: 110px;
+    font-size: 40px;
+    padding-left: 375px;
+    color: #fff;
+}
+
+.Precios p{
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+	font-size: 15px;
+	padding-top: 70px;
+    padding-bottom: 20px;
+    padding-right: 109px;
+}
+
+.Precios .paquetes{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.paquetes li{
+    display: block;
+    padding: 5px;
+}
+
+.paquetes h2{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.paquetes h3{
+    margin-top: 16px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.paquetes h2,
+.paquetes h3{
+    font-family: 'PT Sans Narrow',Arial,sans-serif;
+    color: #4c4c4c;
+}
+
+.paquetes p{
+    padding-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paquetes p,
+.paquetes li{
+    color: #737373;
+}
+
+.paquetes button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ @media (min-width:768px)
+ {
+
+ 	
+ 	header.masthead
+ 	{
+ 		padding-top:12rem;
+ 		padding-bottom:12rem;
+ 	}
+ 	header.masthead h1
+ 		{
+ 			font-size:2.1rem;
+ 		}
+ 	}
+ 	.showcase .showcase-text
+ 	{
+ 		padding:3rem;
+
+ 	}
+ 	.showcase .showcase-img
+ 	{
+ 		min-height:30rem;
+ 		background-size:cover;
+ 	}
+ 	@media (min-width:768px)
+ 	{
+ 		.showcase .showcase-text
+ 		{
+ 			padding:7rem;
+ 		}
+ 		}
+ 		.features-icons
+ 		{
+ 			padding-top:7rem;
+ 			padding-bottom:7rem;
+ 		}
+ 		.features-icons .features-icons-item
+ 		{
+ 			max-width:20rem;
+ 		}
+ 		.features-icons .features-icons-item .features-icons-icon
+ 		{
+ 			height:7rem;
+        }
+        .features-icons .features-icons-item .features-icons-icon i
+        {
+        	font-size:4.5rem;
+        }
+        .features-icons .features-icons-item:hover .features-icons-icon i
+        {
+        	font-size:5rem;
+
+		}
+		.testimonials{padding-top:7rem;padding-bottom:7rem}
+		.testimonials .testimonial-item{max-width:18rem}
+		.testimonials .testimonial-item img{max-width:12rem;-webkit-box-shadow:0 5px 5px 0 #adb5bd;box-shadow:0 5px 5px 0 #adb5bd}
+		.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;background-size:cover;padding-top:7rem;padding-bottom:7rem}
+		.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+		footer.footer{padding-top:4rem;padding-bottom:4rem}
+		.testimonials h2
+		{
+			padding-top: 50px;
+			padding-bottom: 30px;
+		}
+
+		.testimonials p
+		{
+			font-style: oblique;
+		}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GamePride</title>
+  <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAADmCAMAAABruQABAAAAwFBMVEVCQkL29vbvXSz////xXSs+Pj5BQkMyMjL5+fn8/Pw0NDTeYDU8PDxCPjs3NzczMzM6QUJQPznqYjTm5uZJSUlMQD3Jycnd3d3t7e3uYDHS0tKUUDnMWjOurq4tLS1gRDuFTTlVVVW+vr5hYWGHh4e9VzdqamqVlZWAgIBTU1OlpaWzs7N5eXlubm7Y2NiOjo7GWjefUThxRzllRDl+STjhYDSrVDhaRDykUziyVTYfHx9vRzuNTTh7SjrKWTPAWTaMqbMJAAAa8ElEQVR4nO2dCVejOhuAQZoGECkWbGm1aKF2oZuO46hXHf//v/oSSFgTtlLt/c597z1znFFpHt41uyD+/4rw0w04ovzH9u+U/9j+nfIf279T/mP7d8rR2WRZVgKR6T8o5O+yXPiLh8vx2DCTJNu7wdrfb7beyrIEgMSyVt58s/fXg50pShjxaC04DhvCks3BZOYJeq+n6pqGoIRIANA0Xe1BVfBm/gATHoevfTbEZY/9jaX3dC0BxBSgoZ+ytv7AVo7A1zKbrIhjf65BXSuhShEiQG8xENvma5ENK2y9QVxl2mLzwd52YraK1xqbopjruarW0VeOT4WeP1SUtprUDpus2O5WV5kKQz6FAwcSHQv+AoUXji8CXZ2v7ZaU1wabLO32Qi/fVhQMIRS8zcJ3B+OhadpYTHM4Hrj+YuMJDlQZfglUbTluRXmHsymi6znZJiL3cayN7w5FiS/i0EXx1Mk7qAanE7GS8qKCIFEJRF8dyIaM0bcyKkNcAIV1SiWaY3fi72ebzRzLZjNb+Gt3bNLv24MgsGaeoYKFWU4nTxzk4prac8yFR1StLDy5DTbFXAA9/cpROPd3ctjq8WQ2t3Rsesi/ggSO03bof46+mu8nYzvkH/uenolDuj4rpZN3+8VC8BaLhbh03OCHZbNntcCm2As9RYZe/9K1SWMDayvM3ijKQIgsdxyo0HY3Kkzhab2ZKRXT4eLUmqHSTVrqoeKUvb46mA2RqUky0NOXAwU1UkZKgNWzNwLsef44+E13kw62GtybpVHFmqEfUZaaM5Cx2nTtUDZZnghJMh3OXTF8+6B+9kYuKiyD3xfXnpN6ru6LJXSEzZpixSG1eYfZpCwNpr1E01RtYQYN22a9progT9262FGH+5TydMstdjvCtlr/M5Bl05ntD2JTzI0TfzqAqzVu02DTY2fvGnjqcoxtc2LBxJPgfCiVs1mK4MnS3jFnB7Ahc0woB0BvgG3RF+Ah9VaEBy0fRyPXg8m3txD5qqNs0uSfge0spWVzNmXo9RKfOscverdUdVZLmwhAwX+IzSBJp6/GXK+L2ERhvneGzdlk2U8YHvQw2WDeispi0eA2eO4UxsR81UU2qUygupSUpmyKOY+Vplpu9v22RucE9rBOxGJ1umN7HVhito2A/rT+GcrKUmjEJrmxp2m6jz59fAwyLMCZ7yRJ8Xta/C8TVsCU/SCvub4sygNfwX80YJPFfWQkAG6Qyw+3znHIQpYNSizmNjZM9JkMuBBYVlJ/1GRTTC+yEN1CwRGhtutnWdF6C5RcXCHxsbsanZ/qbMpAoyTA2aMSydVai41c0QXk0uLMoX8HcF2U6hqySZPoA3QL+bk5h+zmtCzOFhnmIFads6isuYpssjyLUJwlMhT/oJGROqLpE6S6TfTx6qYgjzdgk8WtSh4NeshKTO97lBYK3KKwNYnise6xIkpTNtmOoog+RSayPnIMyYqmo/c5tGgbNGtYyS6rsMnmirLApSLJS4fXiKOJM1MSdgmESuGyAps8tKg5OChdD1fHD495CexlQV8q0PjlZR02ZUjnKUAPJTW30bDx4QI0/OGR06mDcrhSthhNE4aJV/f9go1mFw3AwHK4MjZ5KFC0lS0pm++Mj1mBSxShLer6eqlZlrDJJvU13RMl0fsJV4tFnYuSPY3gygJKMZtsR2hzJfHOfkr0qR2/YKANi/NcIZss0pekb1GALJ0qPL5ogikpEZxgFsIVs23JUzDa7ocCZFoADmhz0ixtWlh+FbFJM1JonQ4aniwfSrIXmVNDNsknQVH3lJNBC9xMkqmvqPuCLg+fTRmQVKZNZWnImF77KQGaKYkr0h5nwg+WXDbZpNWIJUomOB003CJbsmmLID/N8fU2pdHflKJMcCKirURpR2IBELg9Hh6btCSxyBlLyvSn81pWNA/VltRl5jzFcdiUNflNZx2H3BMSfSNFoU5dcOIJm002aWLbS9Je5X/GjwlcSAnTYlslh80LHQzrfv1zlX+ROK6kkGCJYkt1NsknqtJsafeTlX+RqEMpsq4l0+VYbPKOjPk7A0kUTitExgIsOYon0GXBMdlI+EdOKm1PLUTGguPJjIY5llUy2BRikWAax6KTFBTDFZJ59RkjVubZZJPwQFPanWYcoZJoIStW5tkUYoY9PwpEpyoAhfEFNbIKelNcGP3e/vSSdlrU+P2rfi6c5PVGfhYOT90isaBWjmntlasrs2w0kOgoRp64RWLB8Y7Eynw4ybDJNjVDJUrgJy1wIokkTcGdXMimEBeDrmT+G9CC0mkdRghtqxSxyWZYkeBAcgJZu1vhZ/SlJJFaI5sH0mzKLASCO2lwSCCp0qi2xNnRcAIyPbkUmzwM7VBbNgkkXfx/A6ruYW8iYWMwrbgUG/W2nimte0XPY7TPSEm3RoMzv5qR8ueg2DAkOTntcUk22iNF0VSpRwUunz4/Xt/uvx4evr7eXq9/P12CSu3CD7h6fLhhyd+H+z/Xny+g7DlgJUkb6ksyh01ZkCBpV43/GOzq6frrvH/WSclZ//zr8f2qAl736qZTJKPz+7tLwyh6BFxLw9DjtI3EYSOJQkNJsBKZYBiXd1/nAdZZRoJ/e/6izeIjGn9yv5t70PP9L1BAB1ZKpLjkDEGCTZmo5PvSpILaugb4vO8zsFLt6t9/gkLlaefFbOFzzv5+FjwFeRwZHtCTq0+SbGGaQHpVrApkF9dIY1WadX59xW9X96ICG37O2cMtV3W48pqTsROmTcqDEB3lNre4R4oaalw9PhdpLI3XfwzpGIRV2dBjRo+A94rgQCKtV9cKg01ZBiaL08WUn9uCpxvgozJZSPd8fcF+6zEbtu50PMo95eGFozrc6DAhA4/BJpvEG92o18DDM97/1iEL23XDdpiYrZ+TUTZKdZ7fOXDOkMaIRBqI2GgkEaKYwxHj4nVUkyxo19nbFaNhlK3zfJmTl6ffjw/PSbxO/zfbdXFsJ8k5jiYxWzjcivptNldt+LHG7U1dpdGGnTNUF7Gdg25eUP6/+vXWT8CN7tia64kSqYWtnE3Kw7DIQsr1C0YSusZdvxlZ0LDXXDRIsPE+0bh8jT+zM/rNhFPXdJgADrJ7xJSQKHZKzgf9qRD3C+geLjMtK2ULip/L++hjO6NfLDjc8HA8T5tl1/SS5KZOpDE/AXQvvorIuBEu8SPnl93MI0vZgnf6O1Jd5xknupxxxwanZWxSJgWZakt7biQxLv9ymh0Ufv3zmwckf2+eR3zAzn36rVdhC9z85SaCu7lgxBMUKEhvIDJKIW2Sc24PoIvQbpgNxqXH1+Pny9UFAAb67+Li8v3j7WbE5uu/pBpWTW8Y7uohgntjWCXuDZDCaq+k2ebUJAc8k8QFOxvs9eki6LIRQwnjG7i9/jti0HU+Uw2rzIZ+MoI7+2TAoXqKGGVmX4dNKhaTa5JMNFwLv2vZngxBNIyX13z50rlryIZ+lLagc86wytgoHZK+QzbZDTIADjbcBz8w0Pp/XvJdq278h3F1fZ6h6/xuzNa9jOqzx7zisFGuQkoyxByyKaG2EDpnKrFr3Ofru7Ov27K+J6J7zCTEp2b+hsX4RSqizvNV/oMhNTo6tED0FnohHHMSd9d4zKM94/qnvF9tvDwkq6abNEMdNhTOXqnirvOKQ+mbBAuQ8DeZjLNqsuTlPwJ3aT7znnaPysNK41pd4yNOTtkwUEtvcWXdOc+HBTygQOrlcLwrZHODfwNb+s3sI1+eM2rrjK6rjfSEr+aJNuks6yj19CYYv+mDGNUJUIhqiMMFbGQQSPc5RQnIxpFOv6iLnxfj6i0YfTjPFYP19IaaQt8SI8eh0iQEIUNCARvB5bmbcZ1Fe36qhRZ43d31x3u+g1qXzfigRpnvhOsoO4cVvxX7m03G02U66pD++JdMpOucMyu6YumyB1LrsnUv+2EjRk+5hyF1kf6ZGqz2xWxyuO4LTCWZ9bhs+A+L1ZakLptgEP/ofOQbYaG+QPCF6kZsYShBfdcho1uKkkrG13gd+yZSn+2a73DQJmMGYTAR4lCC8oObC5NdAaRrLV7nsKHUZus+kXb8zVs4HJCAoW0om7QNQ8mOhJmUGL8zceSxZhgpaWpttqs+P5j4NJisIr0RI7UJZEpAus/WeWh3Erw2mxANHuXLLm0pkcUxuk3Y6Bw39cSkZLyt0+cNETaU+mz0Zfcvc2woGipkJBIHSgH3uQNW1AkQGSaZDpKs6HSQ1GczyLhGppMbCJBJ/zToewvRYDkOk7mqBKWT1ODnTduT4M3ZRrfMrkAYKFW8/FzA63eD6Bg7YvJBmZKEOcZ0iLTMNibhMBiBFaKxEtWVJjmbNFIJoPPQaozE0sDfwuTdYdlkxKAtCVs4IBsxJz/5Mp23WeMUh0kDNvK6+1f570W2FyxZwGyhiTqmtMx6E61MqbdxJ4kaS4P89kxywEX+m9qeDByAaRhLyEwAK72loySrs3uo1K6Vuy8j8qIZjUHVMklwVpjfZDJzJebn3S5SfVKWhR8q9etJ2ju9Zw1SziWSrIEd5u4wY1tKZoyrK3RvU7ntb/tqa8D2RtgYQ104eYtkOSVhC/99JUnZStm4O7ZJ1rfJaC6SnY7ouLhjypjNDge+UL2SSW/d9PoIRm/wcKnd7/5FXjRrFA8FSroOARddAi0nccmVLUuM5DgJCkynwEYyN0q1rG+rdFIATw0jtjCyYDfMsqW6bszAdLDUZOvekoTbYc+f9tJsshl0thlsNJWQp7FmTw6Wmmw0KWGTZFlRLx7XKmF7SVYlRwklNdmiHhfvRcPKbE+pFNDqWEL0GXXYulc0SLIKZSyV2Yz3VCeg6hAQY71BKAez0dzG94+enGIT7XAELx8njc9UCuC8qnRTDXBxxZOLA8cnjUdqQtwKqaek4yQ3B9DyhrBVqLiMi+ub5/wCHyLnb0+HjCsbH3SxArMmCUSlyyxofgvLyakkZXJ3uiypwIbnNPCqrDO2dPBys6ZsXeOOLkdiT+YHks3dpOayJCnTfavLlp/uydO9ZuePK7J1jccIrZ9XPxWLDo3DsJ6UyeiWnB3myvhbKZtRuPokbNcoE5EqshkXb7E5fHB7/7hWDvugOmELI4smZicWM2xl5WRUMxTCNVhfgpT2K15l2fnDj9dgK9mk4A/7bwoZVjazfVPjPdWsshyQ7qTz2DJVaQU2w7i9j1f+de4Bfw5JW9IpjRXpd4dDCXBIV7JFn5tSRFnuZs2JM9gyQ6bJdXiMZ3YN4+LXfWKdSueraFxDX5DZ0WCJqBBNdUQTBfGTUyNB/MBLJDcFWY9Ny217AODi5fcbXsce//p94ZCNPiHTNcFkR2IMby2tU53TbqZWZnXiU2y/DmA7G93n5CFcGZb45bM/xaNRPZdO5OxDNjL9hvWZSXD1+jiVllVz2TKbJ1gr+jojfoQMBe7IEpNgAg6zhSYajxFFkgrqnT6zpxu3souCSXkS4LKVv5bz0ln2Hh2rCyZOhWjTMy66MuOT0VKV8NmlA+bGa+nK0cZsnf4rqx7NCJ2KClaYBHP5ZNuAkh3ESxeUqKYoe7Txcc6yrYPZULV2X7q+KjkVFexdERJLMMz0CvNuNlBWGFY2Lt4/rrPylrLs2mx4Q85bBbLUVBSdy6cTArkkEK1UCaXSQBdjC9vvRmx0K8RZ/+Hjstoci05n7LECCZtPlwWlF4Z2485g+GnlRsmkvavENspL//nm/vHXVbDutIpEM/bh0tdgDUY494GXnhT24JhLMlti65zf5uTlClTeIRiILpLFP+GunICN7Fe0chPedFEAbVijGeGKbMCoNgrBF9wFJZtKx9TfaC/HsXPbVdLdluqTZE3YGjw6LSiUmGT/oh2vwwuReoPczKlxl/bvJor7NjbVJVUj2UwlJFbQ49XM2UVP6VmqRuPm38bmmKQnQ1bRhzZJOwaSkptdTG8HRR3D2nDfxmbRgaBwqRpdQx9+U807XKYzzdkNUyjfxYbdjW4FSLCRrnfPzXRzhPzimfPiipkh38UWtR6skvsDiMPF5NFHC8ZTeicf6sbVhPsutsjq6KYVsoae7B2z8ntNczsDSvvfWfkmNjCn29J7blJvNMPFe1oSn36byt9IOFsHefJNbPFeop6d2o9DyuV4Twv9aKy414ziaq4O/S62aFvHPL2PiqxXizdaxWz5Uh3vaD05NpzAwq/0SZpNpH061nZT4zMzqFo+cJH69W9hU9d0c4NjpveI0bILGWV20ERgnOfQOcN75CvifRObTYqSePd6tE/YJWNcEmOPQLzzLGpi556z0f6H2FAHTSYzAX6WjZYmqPPt5o+cMW5zO5875+8V7fJb2HC7U0VJko1ESnwKBmNtq/E7txe/M/oTqq64m9U1Ps+/gc2i9pY4ECk+T4F4IrRZK+nj+diU6u6KzybBoydPX6lxvSOx6T7tuvXW+fMU6P6++KcyrWScD9Pp3NwVDBp2EdlbZj/tkdhijYD4lM3EGR90ly37sIgueMvDIbrzx1v2JiLDuLp7yFvyUdjwURHh70cboNN6IysPUTnN3AXXBfktpwHd6O/j0xU5uIqe8GBcvNx9sc44ya4xa4cNso74SJ2ps6QL8lg7M3maC/DOnv++fXw+vVxdXVxd3r7fvX6dc7auZ9eYtcKmbelhCsmjWZJscnSQBGcDexdwz2QKR8ZHo35/NModqZKSX0b7enPGNAFAl33OEx07x7u8mYrDU6PFkxml8zi5MYk22FDvhlbBVvJgtdS5akRd6DVwTvo76PgSXKrlDjBpg83ZRSchTXhsNA3g98BWHF4ewz4wohLa810uoLbAhr2NNjdJkznrj1itM+Ceh9RNrfSoRYaPaSo6U6cpmzOk3qanz7PNnK05jdY/cQ9EyhRR1ZX2weo6HM6mz2iQTObtPJsShZuiI1GNqz91T3rqjO6zp+m0xmZLk7C6z6gtd5Yt7XUrzKqSNghViTXoUPR8+MUpzQ5m6/nxtr3MoeZZtgE9M0+Siy7p6Brv+XqKS/b3k3vIYpKtyQQYHgUhJ4Kq2StXcucrz0M/c8ySE19xHVx8iiEh698/GQa/3YXrgsoF5Ssyh0FHXPls9O4AHFiLz1dDurv8eOCUVoQL1ZrXwQmU/HaTHXYNV+jjQELif/4OgdyZ3/SYaRRObL7HUTrw8hGWjpmeTHi05sP1S1kHTwgXpXQ46/1LRZQm5HTl/HUr+fPMyeEKKKCWndUY4hkXt3d//p4/j6LVF2f4OKu3D3xCUrmddY3XEV4Q2wgNJWKqAJi/MI1xxj49ZnqDrLLSQfThaba37593H0jufv+6vSQHP1US4/burtISi5xgiyTxQWdcV8u69yEy4Eq3dZCjj5KnENecqO7Wma9PCIoe1CKBledgscl02BxlxZKjKH9WULFFB1OdQc4i2XeR0BOI8e04J3xhB5xEXRt9ybraiH33D7HKk75oBV+zQrI25/IfJptML+lCXXDxxO4QowKmchTHOXedsvWmUFPUbGlY72Tz7xLdjMp5nXN5H+8eMWKKYKpElwedlKBaS6bXUU05F8Bx2GRbiLz0FOMJvrqNXuKp8q455d1tp9ChLuhL0X2ZJyP4hrQF8RW4ZjpbAVvsco5btT75NlGRMU2Ip6gzHhqfTVQStxKe1tV9OPpHNxJ6/BtO+WxidOGuupMU73TSHL5Jlo7qo8zWiE02STwBwIyvgv1xCW+SJX9Rs3fiVNWbEt2zGcCdhlniC6mjW5sd5p12VdhEhVo1EOwTgVPxhdQqRZsU3LhbwhZfBQrw3dLbn08FPRRGhvRqY8jos1Vni+9LDu6WXv50Eof7xIXUBdG/EpuoLCicjlLB4mfLLwfVEdH0mbopQStlE5U9fRhO4j952SmAyQaoy+IL5auwJeFQZ3AMfioXaBbyCj9C25SiVWCLzVKAM0myfyhcqnM74fDlBlmNTYzdTPVE1Nn9Cbt0UHVsT+lrhWVhpDKbqEzo+9KEHarl9O+2Sw0Mku5QFvzrsEVzV8ihe8jpTO97++Jwayd7kU7+SswD2ERlTMscAW5k7NPfN4qi4QEtcRu9XTxu2iabqAxX1CJ0AWW6ofddeRx6JspqkT1qYFxNa9XZRNneUkMEzkJBncNv8TpdW0uSPIvCl+6ZVdGqs4lynAsEfYVUZ2/gsQ0TwCXytIEVpR24FMvzWn02lAtcWsoh1e1RNhhMj2uY0EOvUFxGvg1gdmq0NTZRMb2oK6ADVAFJa+F4fQPVCj5Bj5SmW7s6aPXYRFlexAESeijXyT44Tp2iChPk1ONEyKplj/XZ8NhebPzIG1AIE33Quu7QE32UacyER2ugsI/dBpuo2LNYdRrcI1+XJ1arUQVAa410hj4ojsRwWz0+NmZDISWhOkEP6CTXg22Zpg7nqMCSzCSZDtZSPXtsyCYq4qIX60lXZ6jzIQ33oHe48jQoLIKnLWFMhjNBbaU1ZMMjYHOYbNAWv2nR3fbUQ/CAqm5d5GbSYJ4gE3rTgVJfaY3ZUCJ3rUQE0eDKx6Zpr+eO2qxc0XrOdh08w095r65N5EZkjdmwYaaiP9CdzUAJtLcUoF5PfZoOhaWLigFJdrdO8pd1fSE2McfD2HDEXGjJAIJ8ZTbGJqXs/K0AVa0KINBVKGwn2MckebBM+6ymz+pHx1bYkGHaCz0VHjX8/u2gncP13gMQ6jpgIwJN12EPeHt3iNUt2e4GwJQ54yDVzNFaYAvoUOZONV7rQW8xwPaFAM3BZL+dCtCBEPZUVdd1VVXR1w4UppvFZGAGWJI9WHgw46fIGs0Gcb89NhH73Xqaft/IzqA6RfoIAbEPmsPxwF2vJ5PJeu0OxkM7/hbS71TNOijK3r59kM5aYUN08mCjZqMH9iMwXfruzpYllsj2zvWXU62X90u9t3WbR5BW2bBpmv6KUZggn0IWqK28zWzh+0hlLlKe7y9mG2+lQajqjHCjQWtxmJtF0gobplPGC4sX+4Gmha6GBX2l8UIoDrUDuR2y1thEjCePF6u6qS3xAnRo7QdiW2Bim2xigDecbEF9PsSlzf1dm2Biy2xiYJz22N9qFVN34JNQR1nDVtoFE9tnw4L4cGifC5xwEUHpPah5+zXSV+tcWI7BhkVGgCh1rxdLb4XzQZi5w4jSgz0dWF6QvBHWUbiwHIstEAyIdGjT1O37fpi8d6aNoZSmFX41OSobFTkQJZTwL9/xsd/C9kPyH9u/U/6f2f4HSSte1h1av7YAAAAASUVORK5CYII="/>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+
+
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="~/Content/SearchQuestion.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" href="~/Content/jquery-ui.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary sticky-top" id="header">
+   <div class="container">
+      <img src="img/logo.png" style="width:70px;height:70px;top:0px">
+     <div class="navbar sec">
+       <ul class="row">
+         <li> <a class="" href="#header">Inicio</a> </li>
+     	 <li> <a class="" href="#Nosotros">Nosotros</a> </li>
+       <li> <a class="" href="#Beneficios">Beneficios</a></li>
+       <li><a href="#Precios">Precios</a></li>
+        <li> <a class="" href="#Equipo">Equipo</a> </li>
+        <li> <a class="" href="#Contactanos">Contáctanos</a> </li>
+        <li> <a class="" href="#Aplicacion">Comenzar</a></li>
+  		</ul>
+      </div>
+	  </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">La mejor plataforma para encontrar torneos para competidores amateurs</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <section class="main-description" id="Nosotros">
+
+			    	<h2> GamePride </h2>
+                    <p>Actualmente, no existe una buena organización entre las distintas competencias de videojuegos que existen en Perú, bajo esta premisa se creó GamePride, la cual es una plataforma que tiene como objetivo conectar a gamers de distintos videojuegos mediante la creación de torneos gratuitos y no gratuitos realizador por LanCenters.</p>
+                    <h2> Misión </h2>
+                    <p>GamePride es una plataforma gamer que busca fomentar las competencias de videojuegos en Perú brindando una comunicación directa, confiable y amigable entre LanCenters y gamers.</p>
+                    <h2> Visión </h2>
+                    <p>Ser reconocida nacional e internacionalmente como la mayor plataforma gamer en organización y creación de torneos, generando autonomía administrativa y económica, con el objetivo de brindar premios a los mejores competidores.</p>
+  </section>
+  <!-- Icons Grid -->
+
+  <!-- Image Showcases -->
+  <section class="showcase" id="Beneficios">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white" style=" background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRx9YJL94_5YKMSgwqNwWuz2saaDGYfTc-cRtFm_3YTcAYgaLKF');background-size: cover !important; background-position: center !important; background-repeat: no-repeat;"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+              <h2>Crear torneos</h2>
+              <p class="lead mb-0">GamePride permite registrar Lan Center's que permitan a los usuarios organizar y gestionar torneos de videojuegos.</p>
+            </div>
+          </div>
+        <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white" style="background-image: url('https://img.blogs.es/anexom/wp-content/uploads/2017/05/cabecer-920x515.jpg'); background-size: cover !important; background-position: center !important; background-repeat: no-repeat;"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Buscar torneos fácilmente</h2>
+          <p class="lead mb-0">En esta plataforma encontrarás noticias de los últimos torneos cerca de tu ciudad.</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <div id="Precios" class="Precios">
+    <div class="container">
+        <div class="row">
+            <h1>Precios</h1>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="col-lg-4 col-md-4">
+                <div class="paquetes">
+                    <h2>Competidor</h2>
+                    <h3>Gratis</h3>
+                    <p>El usuario es capaz de inscribirse en torneos, ver noticias relacionadas a los videojuegos y buscar eventos.</p>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="paquetes">
+                    <h2>LanCenter</h2>
+                    <h3>S/.30.00</h3>
+                    <p>El usuario podrá organizar y gestionar torneos, además de poder participar en estos.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-light" id="Equipo">
+    <div class="container">
+      <h2 class="mb-5">Nuestro Equipo</h2>
+      <div class="row cont">
+
+        <div class="col-lg-4 conten_xd">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/team2.jpg" alt="">
+            <h5>Jorge Soto</h5>
+            <p>Desarrollador</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 conten_xd">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/team3.jpg" alt="">
+            <h5>Carlos Sánchez</h5>
+            <p>Desarrollador</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action 
+  <section class="entrevistas">
+
+	<div class="video-responsive">
+		<div>
+			<iframe  width="320" height="200" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div>
+			<iframe  width="320" height="200" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div>
+			<iframe  width="320" height="200" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	</section> -->
+
+  <section class="contactanos" id="Contactanos">
+	<div style="width:100vw; height: 60vh; text-align: center; border-top: 3px solid black; border-bottom: 3px solid black; display:  flex; justify-content: center; align-items: center; background: black; opacity: 0.9; background-image: url('https://shamrocollections.com/wp-content/uploads/2019/01/gaming-banner-2560x1440-gaming-game-video-puter-gamer-poster-wallpaper-de-gaming-banner-2560x1440.jpg');background-size: cover !important; background-position: center; background-repeat: no-repeat;">
+		   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+		   	<div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-5" style="font-size: 25px; font-family: sans-serif; font-weight: 400; margin-bottom: 10px ;color: white; font-style: bold; ">
+		   	Para mayor información envíanos su Email
+		   	</div>
+		   	<div style="background: transparent; visibility: hidden; height: 20px;">
+
+		   	</div>
+          <form class="mt-5">
+            <div class="form-row mt-5">
+              <div class="col-12 col-md-9 mb-2 mb-md-0 mt-3">
+                <input type="email" class="form-control form-control-lg" placeholder="Ingresa tu email..." style="border-radius: 10px;"> 
+              </div>
+              <div class="col-12 col-md-3 mt-3 btn-hover" style="color:white !important; background: white; border-radius: 10px;">
+                <button type="submit" class="btn btn-block btn-lg">¡Regístrate!</button>
+              </div>
+            </div>
+          </form>
+
+        </div> 
+	</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light" id="Redes">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">A cerca de</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contáctanos</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Términos de Uso</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Política de Privacidad</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Tu Sitio Web 2019. Todos Los Derechos Reservados.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
